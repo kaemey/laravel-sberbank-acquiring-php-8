@@ -1,5 +1,5 @@
 {
-    "name": "avlyalin/laravel-sberbank-acquiring",
+    "name": "kaemey/laravel-sberbank-acquiring",
     "description": "Provides functionality to interoperate with Sberbank acquiring system",
     "type": "library",
     "license": "MIT",
@@ -13,8 +13,8 @@
     ],
     "authors": [
         {
-            "name": "Aleksey Lyalin",
-            "email": "lyalin.alexey@gmail.com"
+            "name": "kaemey",
+            "email": "kaemey@gmail.com"
         }
     ],
     "require": {
@@ -36,12 +36,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Avlyalin\\SberbankAcquiring\\": "src"
+            "Kaemey\\SberbankAcquiring\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Avlyalin\\SberbankAcquiring\\Tests\\": "tests"
+            "Kaemey\\SberbankAcquiring\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -59,7 +59,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Avlyalin\\SberbankAcquiring\\Providers\\AcquiringServiceProvider"
+                "Kaemey\\SberbankAcquiring\\Providers\\AcquiringServiceProvider"
             ]
         }
     }
