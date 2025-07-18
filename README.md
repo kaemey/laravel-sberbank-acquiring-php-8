@@ -19,12 +19,12 @@
 ## Установка
 Добавьте пакет в зависимости:
 ```
-composer require avlyalin/laravel-sberbank-acquiring
+composer require kaemey/laravel-sberbank-acquiring
 ```
 
 Опубликуйте файл настроек:
 ```
-php artisan vendor:publish --provider="Avlyalin\SberbankAcquiring\Providers\AcquiringServiceProvider" --tag=config
+php artisan vendor:publish --provider="Kaemey\SberbankAcquiring\Providers\AcquiringServiceProvider" --tag=config
 ```
 
 Запустите миграции:
